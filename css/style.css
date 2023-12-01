@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    border: none
+}
+
+html::-webkit-scrollbar{
+    width: 5px
+}
+
+html::-webkit-scrollbar-rack{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.background{
+    background-image: url(../home-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5rem
+
+}
+
+.logo img{
+width: 75px;
+height: auto;
+margin-left: 5rem;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s
+}
+
+.C-icone{
+    margin-right: 5rem;
+}
+
+.Icone ion-icon{
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer
+}
+
+ul li a:hover{
+    text-transform: capitalize;
+    color: rgb(101, 110, 3);
+    border-bottom: solid 1px;
+}
+
+hr{
+    border-bottom: solid 0.1px;
+    color: rgb(54, 46, 46);
+    margin-top: 15px;
+}
+
+.C-title{
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.C-title h1{
+    color: #fff;
+    font-size: 4.8rem;
+}
+
+.C-title p{
+    color: rgb(231, 208, 208);
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.C-title button{
+    margin-top: 2rem;
+    background-color: #d3ad7f;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.C-title button:hover{
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+
